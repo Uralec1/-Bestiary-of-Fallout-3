@@ -4,15 +4,24 @@
  <title>Бестиарий Fallout 3</title>
 </head>
 <body>
- <div class="container">
-  <button class="button" onclick="getRandomValues()">Сгенерировать существ</button>
-  <div class="result">
-   <div id="value1" class="value">Супермутанты</div>
-   <div id="value2" class="value">Гули</div>
-   <div id="value3" class="value">Звери</div>
-  </div>
- </div>
- <script src="script.js"></script>
- <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <button class="button" onclick="getRandomValues()">Сгенерировать существ</button>
+        <div class="result">
+         <div class="value-container">
+           <div id="value1" class="value">Супермутанты</div>
+           <img id="image1" class="image" src="" alt="">
+         </div>
+         <div class="value-container">
+           <div id="value2" class="value">Гули</div>
+           <img id="image2" class="image" src="" alt="">
+         </div>
+         <div class="value-container">
+           <div id="value3" class="value">Звери</div>
+           <img id="image3" class="image" src="" alt="">
+         </div>
+        </div>
+       </div>
+       <script src="script.js"></script>
+       <link rel="stylesheet" href="style.css">
 </body>
 </html>
